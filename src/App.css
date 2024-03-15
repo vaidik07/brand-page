@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo img {
+  width: 76px;
+  height: 42.75px;
+  /* Remove top and left properties unless you have specific positioning needs */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.button {
+  padding: 8px 16px; /* Adjust padding as needed */
+  background-color: #D01C28;
+  color: #ffffff; /* Example text color */
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7; /* Example background color */
+}
+.hero-content {
   display: flex;
   flex-direction: column;
+  gap: 36px;
+}
+.Hero-content h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+.Hero-content p {
+  font-weight: 600;
+  max-width: 400px;
+
+}
+
+.hero-buttons {
+  display : flex;
+  gap: 40px;
+}
+.hero-btn button {
+  font-size: 24px;
+}
+
+.hero-image {
+  width: 530px;
+  height: 487.06px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
