@@ -25,3 +25,7 @@ To run this project locally, follow these steps:
   npm start
 
 4)Open your browser and visit http://localhost:3000 to view the brand page.
+
+Output:
+![image](https://github.com/vaidik07/brand-page/assets/110062522/192c02bf-afa2-410c-8f0e-876a990f0acb)
+
